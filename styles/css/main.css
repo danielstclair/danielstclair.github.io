@@ -1,0 +1,225 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', sans-serif;
+  color: #09B8AC; }
+
+p, a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #0F0F0F;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .05em;
+  word-spacing: .15em;
+  line-height: 1.45em;
+  font-weight: 350; }
+
+a:hover, a:active {
+  color: #09B8AC; }
+
+html, body {
+  height: 100%;
+  position: relative;
+  background-color: #F2F2F0; }
+
+.nav {
+  position: relative;
+  height: 2.5em;
+  width: 100%;
+  max-width: 46.75em;
+  z-index: 10;
+  border-bottom: 1px solid #0F0F0F;
+  text-align: right; }
+  .nav .ions {
+    margin-right: .64em;
+    font-size: 1.8em;
+    color: #0F0F0F; }
+  .nav .ion-navicon:hover, .nav .ion-navicon:active {
+    color: #09B8AC; }
+  .nav .ion-ios-close-empty:hover, .nav .ion-ios-close-empty:active {
+    color: #e44d4d; }
+  .nav .nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1em 0; }
+    .nav .nav-items li {
+      margin-top: .5em;
+      margin-right: 1em; }
+    .nav .nav-items li a {
+      padding-bottom: .25em; }
+    .nav .nav-items li a:hover, .nav .nav-items li a:active {
+      border-bottom: 1px solid #0F0F0F; }
+  .nav .hide-nav {
+    display: none; }
+  .nav .active {
+    color: #0F0F0F;
+    border-bottom: 1px solid #09B8AC; }
+
+.fixed {
+  position: fixed;
+  border-bottom: none;
+  transition: top 0.1s ease-in-out;
+  top: 0;
+  width: 90%;
+  max-width: 46.75em; }
+
+.nav-up {
+  top: -3.5em; }
+
+.open-nav {
+  height: 100%;
+  overflow: hidden;
+  background-color: #F2F2F0; }
+
+.main {
+  height: 100%;
+  width: 90%;
+  max-width: 46.75em;
+  margin: 0 auto; }
+
+section {
+  height: 100%;
+  border-bottom: 1px solid #0F0F0F;
+  overflow: none; }
+  section h2 {
+    margin-top: -2em; }
+
+.arrows-box {
+  text-align: center; }
+
+.arrows {
+  font-size: 2em;
+  color: #0F0F0F; }
+
+.arrows:hover, .arrows:active {
+  color: #09B8AC; }
+
+.home {
+  background-color: #0F0F0F;
+  color: white;
+  margin-top: -15px;
+  text-align: center;
+  position: relative; }
+  .home h1 {
+    padding-top: 50px;
+    font-size: 1.4em; }
+  .home h2 {
+    margin-top: 3em;
+    font-size: 1.2em; }
+  .home h1, .home h2 {
+    font-weight: 300;
+    color: #F2F2F0; }
+  .home .typed {
+    color: #09B8AC; }
+  .home .typed-cursor {
+    color: #F2F2F0;
+    font-weight: 100;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite; }
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .home div {
+    margin-top: 5em;
+    bottom: 30px;
+    left: 50%;
+    right: 50%; }
+  .home a {
+    text-align: center; }
+  .home .ion-ios-arrow-down {
+    color: #F2F2F0; }
+  .home .ion-ios-arrow-down:hover, .home .ion-ios-arrow-down:active {
+    color: #09B8AC; }
+
+.about {
+  position: relative;
+  margin: 0 1em 0; }
+  .about h2 {
+    color: #09B8AC;
+    margin-top: -1.5em;
+    margin-bottom: 0; }
+  .about p {
+    margin-top: 1.5em; }
+
+.push {
+  margin-top: 2.7em; }
+
+.projects {
+  padding: 3.2em 0 1em; }
+  .projects #bottom-arrow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em; }
+  .projects .slideshow {
+    position: relative; }
+    .projects .slideshow #project1, .projects .slideshow #project2, .projects .slideshow #project3 {
+      position: absolute; }
+  .projects .project-box h3 {
+    font-weight: 300; }
+  .projects .project-box .project-pics {
+    width: 100%;
+    height: 150px;
+    border-radius: 3px; }
+  .projects .project-box a:nth-of-type(1) {
+    float: left; }
+  .projects .project-box a:nth-of-type(2) {
+    float: right; }
+  .projects .project-nav {
+    text-align: center;
+    margin-top: 400px; }
+    .projects .project-nav .ion-ios-circle-outline {
+      color: #0F0F0F; }
+
+@media screen and (min-width: 40em) {
+  .projects .project-box .project-pics {
+    height: 250px; }
+  .projects .project-nav {
+    margin-top: 500px; } }
+.contact {
+  margin-top: 3.2em; }
+  .contact h3 {
+    margin-top: 4em;
+    color: #0F0F0F;
+    text-align: center;
+    font-weight: 300; }
+  .contact p {
+    font-weight: 300; }
+  .contact div {
+    margin-top: 2em;
+    float: left;
+    width: 25%;
+    text-align: center; }
+  .contact div:nth-of-type(1) {
+    margin-left: 0; }
+  .contact span {
+    top: 1em;
+    vertical-align: center;
+    font-size: 2em; }
+  .contact .contact-description {
+    display: none; }
+
+@media screen and (min-width: 40em) {
+  .contact {
+    text-align: center; }
+    .contact h2 {
+      text-align: left; } }
+
+/*# sourceMappingURL=main.css.map */

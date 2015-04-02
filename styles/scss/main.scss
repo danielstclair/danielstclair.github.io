@@ -1,0 +1,104 @@
+$primary: #09B8AC;
+$secondary: #0F0F0F;
+$tertiary: #F2F2F0;
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lora', sans-serif;
+	color:$primary;}
+
+p, a {
+	text-decoration: none;
+	font-weight: 300;
+	color: $secondary;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: .05em;
+	word-spacing: .15em;
+	line-height: 1.45em;
+	font-weight: 350;}
+
+a:hover, a:active{
+	color: $primary;
+}
+
+html, body{
+	height:100%;
+	position: relative;
+	background-color: $tertiary;}
+
+.nav{
+	position: relative;
+	height: 2.5em;
+	width: 100%;
+	max-width: 46.75em;
+	z-index: 10;
+	border-bottom: 1px solid $secondary;
+	text-align: right;
+	.ions{
+		margin-right: .64em;
+		font-size: 1.8em;
+		color: $secondary;}
+	.ion-navicon:hover, .ion-navicon:active{
+		color: $primary;}
+	.ion-ios-close-empty:hover, .ion-ios-close-empty:active{
+		color: rgb(228, 77, 77);}
+	.nav-items{
+		list-style: none;
+		padding: 0;
+		margin: 0 0 1em 0;
+		li{
+			margin-top: .5em;
+			margin-right: 1em;}
+		li a{
+			padding-bottom: .25em;}
+		li a:hover, li a:active{
+			border-bottom: 1px solid $secondary;}
+	}
+	.hide-nav{
+		display: none;}
+	.active{
+		color: $secondary;
+		border-bottom: 1px solid $primary;}
+}
+.fixed{
+	position: fixed;
+	border-bottom: none;
+	transition: top 0.1s ease-in-out;
+	top: 0;
+	width: 90%;
+	max-width: 46.75em;}
+.nav-up{
+	top: -3.5em}
+.open-nav{
+	height: 100%;
+	overflow: hidden;
+	background-color: $tertiary;}
+
+.main{
+	height: 100%;
+	width: 90%;
+	max-width: 46.75em;
+	margin: 0 auto;}
+
+section{
+	height: 100%;
+	border-bottom: 1px solid $secondary;
+	overflow: none;
+	h2{
+		margin-top: -2em;}
+}
+
+.arrows-box{
+	text-align: center;}
+
+.arrows{
+	font-size: 2em;
+	color: $secondary;}
+
+.arrows:hover, .arrows:active{
+	color:$primary;}
+
+
+@import 'home.scss';
+@import 'about.scss';
+@import 'projects.scss';
+@import 'contact.scss';

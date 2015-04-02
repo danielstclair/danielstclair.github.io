@@ -1,115 +1,96 @@
-<!doctype html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>danielStClair</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>daniel st. clair</title>
+	<link rel="stylesheet" type="text/css" href="bower_components/normalize.css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400|Lora:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bower_components/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/main.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css">
+</head>
+<body id="scene">
+	<section id="home" class="home">
+		<h1>Hi, I'm Daniel St. Clair</h1>
+		<h2>I'm a <span class="typed"></span></h2>
+		<div class="arrows-box"><a href="#about" class="ion-ios-arrow-down arrows"></a></div>
+	</section>
+	<section id="main" class="main">
+		<nav class="nav">
+			<a class="ion-navicon ions" id="menu"></a>
+			<ul class="nav-items hide-nav" id="nav-items">
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#projects">projects</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</nav>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
+		<section id="about" class="about">
+			<h2>about</h2>
+			<p>I'm a front-end web developer who is just as enthusiastic about DOM manipulation as I am about action movies and vinyl.<br><br>I recently graduated from The Iron Yard Academy with a focus on AngularJS, Node.js, jQuery, vanilla JavaScript, as well as CSS3 and HTML5. We also worked with Yeoman, Bower, Git, and the art of mind-blowing.</p>
+			<div class="arrows-box"><a href="#projects" class="ion-ios-arrow-down arrows"></a></div>
+		</section>
+		<section id="projects" class="projects">
+			<h2>projects</h2>
+			<div class="slideshow">
+				<div class="project-box" id="project1">
+					<h3>Vinyfi</h3>
+					<img class="project-pics" src="img/vinyfi-pic.png">
+					<p>A webapp for vinyl collectors to be able to keep track of their collection. Built with AngularJS, jQuery, and SailsJS using the Spotify API.</p>
+					<a href="https://vinyfi.herokuapp.com/#/" target="_blank">Visit full site</a>
+					<a href="https://github.com/danielstclair/vinyfi" target="_blank">Visit Github</a>
+				</div>
+				<div class="project-box" id="project2">
+					<h3>Snake</h3>
+					<img src="img/snake-pic.png" class="project-pics">
+					<p>A recreation of the classic video game using backbone routers and pure JS for the game functionality.</p>
+					<a href="#">Visit full site</a>
+					<a href="https://github.com/danielstclair/day-21" target="_blank">Visit Github</a>
+				</div>
+				<div class="project-box" id="project3">
+					<h3>JS Color Clock</h3>
+					<img class="project-pics" src="img/js-clock.png">
+					<p>One of our first projects, a simple clock that changes it's background color gradually every second. The was built with pure js and was an exercise in set timeout.</p>
+					<a href="#">Visit full site</a>
+					<a href="https://github.com/danielstclair/day-11">Visit Github</a>
+				</div>
+			</div>
+			<div class="project-nav">
+				<a href="#a" class="ion-ios-circle-outline project1"></a>
+				<a href="#a" class="ion-ios-circle-outline project2"></a>
+				<a href="#a" class="ion-ios-circle-outline project3"></a><br>
+			</div>
+			<div class="arrows-box" id="bottom-arrow">
+				<a href="#contact" class="ion-ios-arrow-down arrows"></a>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<h2>contact</h2>
+			<h3>Let's work together.</h3>
+			<p>I'm currently looking to hone my skills with the right company. Contact me below or view my <a>resume.</a></p>
+			<div>
+				<a href="tel:512-954-0033"><span class="ion-ios-telephone"></span></a>
+				<a class="contact-description" href="tel:512-954-0033">512-954-0033</a>
+			</div>
+			<div>
+				<a href="mailto:danielallanstclair@gmail.com?Subject=Hello,%20I%20found%20your%20portfolio"><span class="ion-email"></span></a>
+				<a class="contact-description" href="mailto:danielallanstclair@gmail.com?Subject=Hello,%20I%20found%20your%20portfolio">Email me</a>
+			</div>
+			<div>
+				<a href="http://twitter.com/intent/tweet?screen_name=StClairSound" target="_blank"><span class="ion-social-twitter"></span></a>
+				<a class="contact-description" href="http://twitter.com/intent/tweet?screen_name=StClairSound" target="_blank">Send me a Tweet</a>
+			</div>
+			<div>
+				<a href="https://github.com/danielstclair" target="_blank"><span class="ion-social-github"></span></a>
+				<a class="contact-description" href="https://github.com/danielstclair" target="_blank">Check out my Github</a>
+			</div>
+		</section>
+	</section>
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- endbuild -->
-
-  </head>
-  <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <div class="container">
-      <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">i\'m danielStClair</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">home/about<span class="sr-only">(current)</span></a></li>
-                <!-- <li><a href="about.html">about</a></li> -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">portofolio <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="projects/clock/index.html">JS Color Clock</a></li>
-                    <li><a href="projects/rebuild-1/index.html">Early Responsive Rebuild</a></li>
-                    <li><a href="projects/rebuild-2/index.html">Early Build With Mobile Toggle</a></li>
-                    <li><a href="projects/Pick-number/index.html">Pick a Number</a></li>
-                  </ul>
-                </li>
-                <li><a href="https://codesounds.wordpress.com/">blog</a></li>
-                <li><a href="contact.html">contact</a></li>
-              </ul>
-
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-      <div class="jumbotron">
-        <h1>hi</h1>
-        <p class="lead">i like to break things until they work</p>
-      </div>
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>other things i like</h4>
-          <p>I'm a front-end web developer who is just as enthusiastic about action movies and vinyl as I am about DOM manipulation. Currently studying studying at The Iron Yard Academy with a focus on AngularJS, Node.js, jQuery, vanilla JavaScript, as well as CSS3 and HTML5. We've also been working with Yeoman, Git, and the art of mind-blowing. On my free time (what's that?) I enjoy reading, blogging, making music, trying new recipes with the same ingredients, and staying in with my wife and cats.</p>
-        </div>
-        <div class="push"></div>
-      </div>
-
-      <div class="footer">
-        <a href="https://www.twitter.com/StClairSound"><img src="images/twitter.png" alt="Twitter" class="social-icon"></a>
-        <a href="https://www.facebook.com/dsclair"><img src="images/fb-wrap.png" alt="Facebook" class="social-icon"></a>
-        <p>&copy; 2015 Daniel St. Clair</p>
-      </div>
-    </div>
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bootstrap/jquery/jquery.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="bootstrap/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-
-        <!-- endbuild -->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/typed.js/dist/typed.min.js"></script>
+	<script type="text/javascript" src="bower_components/parallax/deploy/jquery.parallax.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>

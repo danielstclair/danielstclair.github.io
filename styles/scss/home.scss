@@ -1,0 +1,51 @@
+.home{
+	background-color: $secondary;
+	color: white;
+	margin-top: -15px;
+	text-align: center;
+	position: relative;
+	h1{
+		padding-top: 50px;
+		font-size: 1.4em;}
+	h2{
+		margin-top: 3em;
+		font-size: 1.2em;}
+	h1, h2{
+		font-weight: 300;
+		color: $tertiary;}
+	.typed{
+		color: $primary;}
+	.typed-cursor{
+		color: $tertiary;
+		font-weight: 100;
+		opacity: 1;
+		-webkit-animation: blink 0.7s infinite;
+		-moz-animation: blink 0.7s infinite;
+		animation: blink 0.7s infinite;}
+	@keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+	}
+	@-webkit-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+	}
+	@-moz-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+	}
+	div{
+		margin-top: 5em;
+		bottom: 30px;
+		left: 50%;
+		right: 50%;}
+	a{
+		text-align: center;}
+	.ion-ios-arrow-down{
+		color: $tertiary;}
+	.ion-ios-arrow-down:hover, .ion-ios-arrow-down:active{
+		color: $primary;}
+}
