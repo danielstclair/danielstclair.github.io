@@ -7,12 +7,12 @@ Error: Undefined variable: "$secondary".
 25: 		text-align: center;
 26: 		margin-top: 400px;
 27: 		.ion-ios-circle-outline{
-28: 			color: $secondary;}
-29: 	}
-30: }
-31: 
-32: @media screen and (min-width: 40em){
-33: 	.projects{
+28: 			color: $secondary;
+29: 			font-size: 1.5em;}
+30: 	}
+31: }
+32: 
+33: @media screen and (min-width: 40em){
 
 Backtrace:
 scss/projects.scss:28
@@ -89,4 +89,4 @@ scss/projects.scss:28
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary\".\A         on line 28 of scss/projects.scss\A \A 23: 	}\A 24: 	.project-nav{\A 25: 		text-align: center;\A 26: 		margin-top: 400px;\A 27: 		.ion-ios-circle-outline{\A 28: 			color: $secondary;}\A 29: 	}\A 30: }\A 31: \A 32: @media screen and (min-width: 40em){\A 33: 	.projects{"; }
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 28 of scss/projects.scss\A \A 23: 	}\A 24: 	.project-nav{\A 25: 		text-align: center;\A 26: 		margin-top: 400px;\A 27: 		.ion-ios-circle-outline{\A 28: 			color: $secondary;\A 29: 			font-size: 1.5em;}\A 30: 	}\A 31: }\A 32: \A 33: @media screen and (min-width: 40em){"; }

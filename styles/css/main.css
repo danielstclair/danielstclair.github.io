@@ -77,7 +77,6 @@ html, body {
 
 section {
   height: 100%;
-  border-bottom: 1px solid #0F0F0F;
   overflow: none; }
   section h2 {
     margin-top: -2em; }
@@ -163,7 +162,7 @@ section {
   margin-top: 2.7em; }
 
 .projects {
-  padding: 3.2em 0 1em; }
+  padding: 3.2em 0 6em; }
   .projects #bottom-arrow {
     margin-left: auto;
     margin-right: auto;
@@ -186,7 +185,8 @@ section {
     text-align: center;
     margin-top: 400px; }
     .projects .project-nav .ion-ios-circle-outline {
-      color: #0F0F0F; }
+      color: #0F0F0F;
+      font-size: 1.5em; }
 
 @media screen and (min-width: 40em) {
   .projects .project-box .project-pics {
@@ -217,9 +217,7 @@ section {
     display: none; }
 
 @media screen and (min-width: 40em) {
-  .contact {
-    text-align: center; }
-    .contact h2 {
-      text-align: left; } }
+  .contact h2 {
+    text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */

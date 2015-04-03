@@ -1,5 +1,5 @@
 .projects{
-	padding: 3.2em 0 1em;
+	padding: 3.2em 0 6em;
 	#bottom-arrow{
 		margin-left: auto;
 		margin-right: auto;
@@ -25,7 +25,8 @@
 		text-align: center;
 		margin-top: 400px;
 		.ion-ios-circle-outline{
-			color: $secondary;}
+			color: $secondary;
+			font-size: 1.5em;}
 	}
 }
 
