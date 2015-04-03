@@ -7,7 +7,7 @@ My portfolio hosted by github
 ## Stack
 
 - HTML5
-- CSS3
+- SASS
 - jQuery
 - normalize.css
 - typed.js
