@@ -197,9 +197,11 @@ section {
       margin-left: 20px; }
     .projects .project-box a {
       font-weight: 400; }
+  .projects .project-box:nth-of-type(1) {
+    margin-top: 3em; }
   .projects .line {
     border-bottom: 1px solid #0F0F0F;
-    max-width: 500px;
+    max-width: 250px;
     padding-top: 1em;
     margin: 0 auto; }
   .projects .project-nav {
