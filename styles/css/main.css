@@ -162,7 +162,11 @@ section {
     color: #09B8AC;
     margin-top: -1.5em;
     margin-bottom: 0; }
+  .about .image-box {
+    margin: 0 auto;
+    text-align: center; }
   .about img {
+    text-align: center;
     margin-top: 2em;
     width: 7em;
     border-radius: 50%; }
