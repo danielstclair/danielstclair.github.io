@@ -1,8 +1,7 @@
 .contact{
 	margin-top: 3.2em;
 	h2{
-		text-align: center;
-	}
+		text-align: center;}
 	h3{
 		margin-top: 1.5em;
 		color:$secondary;
@@ -17,8 +16,7 @@
 		text-align: center;}
 	.contact-text{
 		a{
-			color: $primary;
-		}
+			color: $primary;}
 	}
 	span{
 		top: 1em;
@@ -28,19 +26,14 @@
 		display:none;}
 }
 
-@media screen and (min-width: 40em){
+@media screen and (min-width: 46.75em){
 	.contact{
 		text-align: center;
 		.contact-box{
-			width: 50%;
-		}
-
+			width: 50%;}
 		.contact-description{
-			display: block;
-			// background-color: $primary;
-		}
+			display: block;}
 		.ion-ios-telephone:hover .telephone{
-			display: block;
-		}
+			display: block;}
 	}
 }

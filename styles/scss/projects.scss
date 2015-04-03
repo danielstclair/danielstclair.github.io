@@ -1,5 +1,4 @@
 .projects{
-	// margin-top: 3em;
 	padding: 2.2em 0 7em;
 	#bottom-arrow{
 		margin-left: auto;
@@ -12,9 +11,6 @@
 	}
 	.project-box{
 		width: 100%;
-		// max-width: 40em;
-		// margin: 0 auto !important;
-		// text-align: center;
 		h3{
 			font-weight: 300;
 		 text-align: center;}
@@ -26,12 +22,11 @@
 		a:nth-of-type(2){
 			float: right;}
 		a{
-			// float: right;
 			font-weight: 400;}
 	}
 	.project-nav{
 		text-align: center;
-		margin-top: 350px;
+		margin-top: 300px;
 		.ion-ios-circle-outline{
 			color: $secondary;
 			font-size: 1.5em;}
@@ -44,13 +39,8 @@
 @media screen and (min-width: 40em){
 	.projects{
 		.project-box{
-			// text-align: center;
 			.project-pics{
 				height: 250px;}
 		}
 	}
 }
-
-// @media screen and (min-width: 46.75em){
-	
-// }
