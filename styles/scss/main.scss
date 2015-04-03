@@ -21,7 +21,7 @@ a:hover, a:active{
 
 html, body{
 	height:100%;
-	position: relative;
+	position: static;
 	background-color: $tertiary;}
 
 .nav{
@@ -65,8 +65,6 @@ html, body{
 	top: 0;
 	width: 90%;
 	max-width: 46.75em;}
-.nav-up{
-	top: -3.5em}
 .open-nav{
 	height: 100%;
 	overflow: hidden;
@@ -80,9 +78,14 @@ html, body{
 
 section{
 	height: 100%;
-	overflow: none;
+	position: relative;
+	overflow: none !important;
 	h2{
 		text-align: center;}
+}
+
+.clear-fix{
+	clear: both;
 }
 
 .arrows-box{

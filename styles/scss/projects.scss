@@ -1,28 +1,32 @@
 .projects{
-	padding: 2.2em 0 7em;
+	padding: 2.2em 0 65em;
 	#bottom-arrow{
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 2em;}
 	.slideshow{
-		position: relative;
-		#project1, #project2, #project3{
-			position: absolute;}
-	}
+		position: relative;}
 	.project-box{
+		text-align: center;
+		margin-bottom: 4em;
+		// padding-bottom: 1em;
 		width: 100%;
 		h3{
 			font-weight: 300;
-		 text-align: center;}
-		p{
-			max-width: 46.75em;
-		}
+			text-align: center;
+			padding-bottom: 1em;}
 		a:nth-of-type(1){
-			float: left;}
+			margin-right: 20px;}
 		a:nth-of-type(2){
-			float: right;}
+			margin-left: 20px;}
 		a{
 			font-weight: 400;}
+	}
+	.line{
+		border-bottom: 1px solid $secondary;
+		max-width: 500px;
+		padding-top: 1em;
+		margin: 0 auto;
 	}
 	.project-nav{
 		text-align: center;
@@ -34,10 +38,13 @@
 			margin: 0 .5em;
 		}
 	}
+	img{
+		width: 200px;}
 }
 
 @media screen and (min-width: 40em){
 	.projects{
+		// padding-bottom: 30em;
 		.project-box{
 			.project-pics{
 				height: 250px;}

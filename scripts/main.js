@@ -1,11 +1,17 @@
 $( document ).ready(function() {
+	console.log('Check out the site repo here https://github.com/danielstclair/danielstclair.github.io')
+	// $('#home').show();
+	// $('#main').hide();
+	// $('.to-main').click(function(){
+	// 	$('#main').show();
+	// })
 	$(function(){
-		$(".typed").typed({
-			strings: ["front-end developer.", "musician.", "design enthusiast."],
+		$('.typed').typed({
+			strings: ['design enthusiast.', 'musician.', 'front-end developer.'],
 			typeSpeed: 50,
 			backSpeed: 0,
 			backDelay: 1000,
-			loop: true,
+			loop: false,
 			loopCount: false
 		});
 	});
@@ -20,17 +26,17 @@ $( document ).ready(function() {
 		$('#menu').toggleClass('ion-navicon');
 		$('#menu').toggleClass('ion-ios-close-empty');
 		$('#nav-items').toggleClass('hide-nav');
-	})
+	});
 	$(function() {
 		$('a[href*=#]:not([href=#])').click(function() {
-			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 				if (target.length) {
 					$('html,body').delay(150)
 					.animate({
 					scrollTop: target.offset().top
-					}, 170);
+					}, 250);
 					return false;
 				}
 			}
@@ -41,16 +47,16 @@ $( document ).ready(function() {
 
 	var sections = $('section')
 	, nav = $('nav')
-	, nav_height = nav.outerHeight();
+	, outSize = nav.outerHeight();
 
 	$(window).on('scroll', function () {
-		var cur_pos = $(this).scrollTop();
+		var curPos = $(this).scrollTop();
 
 		sections.each(function() {
-			var top = $(this).offset().top - nav_height,
+			var top = $(this).offset().top - outSize,
 			bottom = top + $(this).outerHeight();
 
-			if (cur_pos >= top && cur_pos <= bottom) {
+			if (curPos >= top && curPos <= bottom) {
 				nav.find('a').removeClass('active');
 				sections.removeClass('active');
 
@@ -58,7 +64,7 @@ $( document ).ready(function() {
 				nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
 			}
 		});
-	})
+	});
 	$(window).bind('scroll', function() {
 		var navHeight = $( window ).height();
 		if ($(window).scrollTop() > navHeight) {
@@ -76,7 +82,7 @@ $( document ).ready(function() {
 	var delta = 5;
 	var navbarHeight = $('.fixed').outerHeight();
 
-	$(window).scroll(function(event){
+	$(window).scroll(function(){
 		didScroll = true;
 	});
 
@@ -89,72 +95,18 @@ $( document ).ready(function() {
 
 	function hasScrolled() {
 		var st = $(this).scrollTop();
-		if(Math.abs(lastScrollTop - st) <= delta)
+		if(Math.abs(lastScrollTop - st) <= delta){
 			return;
+		}
 		if (st > lastScrollTop && st > navbarHeight){
-			$('.fixed').addClass('nav-up');
+			$('.fixed').hide();
 		} else {
 			if(st + $(window).height() < $(document).height()) {
-				$('.fixed').removeClass('nav-up');
+				$('.fixed').show();
 			}
 		}
 		lastScrollTop = st;
 	}
-
-	$('.slideshow div').hide();
-	$('.slideshow div:first-child').show();
-	$('.project-nav a:first-child').css('color', '#09B8AC');
-	$('.project1').click(function(){
-		if($('#project1').is(':visible')){
-			return;
-		}
-		else if($('#project2').is(':visible')){
-			$('#project2').hide();
-			$('.project2').css('color', '#0F0F0F');
-			$('#project1').show();
-			$('.project1').css('color', '#09B8AC');
-		}
-		else{
-			$('#project3').hide();
-			$('.project3').css('color', '#0F0F0F');
-			$('#project1').show();
-			$('.project1').css('color', '#09B8AC');
-		}
-	})
-	$('.project2').click(function(){
-		if($('#project2').is(':visible')){
-			return;
-		}
-		else if($('#project1').is(':visible')){
-			$('#project1').hide();
-			$('.project1').css('color', '#0F0F0F');
-			$('#project2').show();
-			$('.project2').css('color', '#09B8AC');
-		}
-		else{
-			$('#project3').hide();
-			$('.project3').css('color', '#0F0F0F');
-			$('#project2').show();
-			$('.project2').css('color', '#09B8AC');
-		}
-	})
-	$('.project3').click(function(){
-		if($('#project3').is(':visible')){
-			return;
-		}
-		else if($('#project1').is(':visible')){
-			$('#project1').hide();
-			$('.project1').css('color', '#0F0F0F');
-			$('#project3').show();
-			$('.project3').css('color', '#09B8AC');
-		}
-		else{
-			$('#project2').hide();
-			$('.project2').css('color', '#0F0F0F');
-			$('#project3').show();
-			$('.project3').css('color', '#09B8AC');
-		}
-	})
 });
 
 

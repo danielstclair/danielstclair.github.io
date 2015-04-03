@@ -9,11 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="bower_components/ionicons/css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/css/main.css">
 </head>
-<body id="scene">
+<body>
 	<section id="home" class="home">
 		<h1>Hi, I'm Daniel St. Clair</h1>
 		<h2>I'm a <span class="typed"></span></h2>
-		<div class="arrows-box"><a href="#about" class="ion-ios-arrow-down arrows"></a></div>
+		<div class="arrows-box"><a href="#about" class="ion-ios-arrow-down arrows to-main"></a></div>
 	</section>
 	<section id="main" class="main">
 		<nav class="nav">
@@ -37,32 +37,39 @@
 		<section id="projects" class="projects">
 			<h2>projects</h2>
 			<div class="slideshow">
-				<div class="project-box" id="project1">
+				<div class="project-box">
 					<h3>Vinyfi</h3>
+					<img src="img/V6-compressed.jpg">
 					<p>A webapp for vinyl collectors to be able to keep track of their collection.<br><strong>Stack:</strong> AngularJS, jQuery, Sass, and SailsJS using the Spotify API.</p>
 					<a href="https://vinyfi.herokuapp.com/#/" target="_blank">Visit full site</a>
 					<a href="https://github.com/danielstclair/vinyfi" target="_blank">Visit Github</a>
+					<div class="line"></div>
 				</div>
-				<div class="project-box" id="project2">
+				<div class="clear-fix"></div>
+				<div class="project-box">
 					<h3>Iron Kitchen</h3>
-					<div class="project-pics"></div>
+					<img src="img/Iron-Logo.png">
 					<p>My first experience working a a cross-functional team. A webapp for sharing recipes amongst Iron Yard students. I was primarily a designer in this but helped with front end tasks. (currently in version 0.0.1).<br><strong>Stack:</strong> Rails, Angular, Sass</p>
-					<a href="http://ironkitchen.herokuapp.com/#/">Visit full site</a><br>
+					<a href="http://ironkitchen.herokuapp.com/#/" target="_blank">Visit full site</a>
 					<a href="https://github.com/buckspencer/iron_kitchen" target="_blank">Visit Github</a>
+					<div class="line"></div>
 				</div>
-				<div class="project-box" id="project3">
+				<div class="clear-fix"></div>
+				<div class="project-box">
 					<h3>Rebuild site with toggle menu</h3>
-					<div class="project-pics"></div>
+					<img src="img/remake-site-compressed.jpg">
 					<p>One of our first projects, a rebuild using a site as a static mockup.<br><strong>Stack:</strong> CSS3 and HTML5</p>
 					<a href="projects/rebuild-1/index.html" target="_blank">Visit full site</a>
 					<a href="https://github.com/danielstclair/day5asssignent" target="_blank">Visit Github</a>
+					<div class="line"></div>
 				</div>
+				<div class="clear-fix"></div>
 			</div>
-			<div class="project-nav">
+			<!-- <div class="project-nav">
 				<a href="#a" class="ion-ios-circle-outline project1"></a>
 				<a href="#a" class="ion-ios-circle-outline project2"></a>
 				<a href="#a" class="ion-ios-circle-outline project3"></a><br>
-			</div>
+			</div> -->
 			<div class="arrows-box" id="bottom-arrow">
 				<a href="#contact" class="ion-ios-arrow-down arrows"></a>
 			</div>
@@ -94,7 +101,6 @@
 
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="bower_components/typed.js/dist/typed.min.js"></script>
-	<script type="text/javascript" src="bower_components/parallax/deploy/jquery.parallax.min.js"></script>
 	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>

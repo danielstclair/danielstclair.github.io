@@ -1,35 +1,28 @@
 /*
 Error: Undefined variable: "$secondary".
-        on line 31 of scss/projects.scss
+        on line 26 of scss/projects.scss
 
-26: 	}
-27: 	.project-nav{
-28: 		text-align: center;
-29: 		margin-top: 300px;
-30: 		.ion-ios-circle-outline{
-31: 			color: $secondary;
-32: 			font-size: 1.5em;}
-33: 		.ion-ios-circle-outline:nth-of-type(2){
-34: 			margin: 0 .5em;
-35: 		}
-36: 	}
+21: 			margin-left: 20px;}
+22: 		a{
+23: 			font-weight: 400;}
+24: 	}
+25: 	.line{
+26: 		border-bottom: 1px solid $secondary;
+27: 		max-width: 500px;
+28: 		padding-top: 1em;
+29: 		margin: 0 auto;
+30: 	}
+31: 	.project-nav{
 
 Backtrace:
-scss/projects.scss:31
+scss/projects.scss:26
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/list_literal.rb:63:in `map'
+/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `map'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
@@ -89,4 +82,4 @@ scss/projects.scss:31
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary\".\A         on line 31 of scss/projects.scss\A \A 26: 	}\A 27: 	.project-nav{\A 28: 		text-align: center;\A 29: 		margin-top: 300px;\A 30: 		.ion-ios-circle-outline{\A 31: 			color: $secondary;\A 32: 			font-size: 1.5em;}\A 33: 		.ion-ios-circle-outline:nth-of-type(2){\A 34: 			margin: 0 .5em;\A 35: 		}\A 36: 	}"; }
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 26 of scss/projects.scss\A \A 21: 			margin-left: 20px;}\A 22: 		a{\A 23: 			font-weight: 400;}\A 24: 	}\A 25: 	.line{\A 26: 		border-bottom: 1px solid $secondary;\A 27: 		max-width: 500px;\A 28: 		padding-top: 1em;\A 29: 		margin: 0 auto;\A 30: 	}\A 31: 	.project-nav{"; }
