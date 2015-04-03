@@ -162,7 +162,7 @@ section {
   margin-top: 2.7em; }
 
 .projects {
-  padding: 3.2em 0 6em; }
+  padding: 3.2em 0 7em; }
   .projects #bottom-arrow {
     margin-left: auto;
     margin-right: auto;
@@ -183,7 +183,7 @@ section {
     float: right; }
   .projects .project-nav {
     text-align: center;
-    margin-top: 400px; }
+    margin-top: 450px; }
     .projects .project-nav .ion-ios-circle-outline {
       color: #0F0F0F;
       font-size: 1.5em; }
