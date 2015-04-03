@@ -155,7 +155,7 @@ section {
     background-attachment: fixed; } }
 .about {
   position: relative;
-  margin: 0 1em 7em; }
+  margin: .3em 1em 7em; }
   .about h2 {
     color: #09B8AC;
     margin-top: -1.5em;

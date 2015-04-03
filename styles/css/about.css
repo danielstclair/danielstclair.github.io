@@ -4,7 +4,7 @@ Error: Undefined variable: "$primary".
 
 1: .about{
 2: 	position: relative;
-3: 	margin: 0 1em 7em;
+3: 	margin: .3em 1em 7em;
 4: 	h2{
 5: 		color: $primary;
 6: 		margin-top: -1.5em;
@@ -77,4 +77,4 @@ scss/about.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary\".\A         on line 5 of scss/about.scss\A \A 1: .about{\A 2: 	position: relative;\A 3: 	margin: 0 1em 7em;\A 4: 	h2{\A 5: 		color: $primary;\A 6: 		margin-top: -1.5em;\A 7: 		margin-bottom: 0;}\A 8: 	.image-box{\A 9: 		margin: 0 auto;\A 10: 		text-align: center;"; }
+  content: "Error: Undefined variable: \"$primary\".\A         on line 5 of scss/about.scss\A \A 1: .about{\A 2: 	position: relative;\A 3: 	margin: .3em 1em 7em;\A 4: 	h2{\A 5: 		color: $primary;\A 6: 		margin-top: -1.5em;\A 7: 		margin-bottom: 0;}\A 8: 	.image-box{\A 9: 		margin: 0 auto;\A 10: 		text-align: center;"; }
