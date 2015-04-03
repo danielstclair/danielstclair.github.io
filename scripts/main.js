@@ -93,14 +93,11 @@ $( document ).ready(function() {
 			return;
 		if (st > lastScrollTop && st > navbarHeight){
 			$('.fixed').addClass('nav-up');
-			// $('.fixed').hide();
 		} else {
 			if(st + $(window).height() < $(document).height()) {
 				$('.fixed').removeClass('nav-up');
-				// $('.fixed').show('')
 			}
 		}
-		
 		lastScrollTop = st;
 	}
 
