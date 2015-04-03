@@ -75,7 +75,7 @@ html, body {
 section {
   height: 100%;
   position: relative;
-  overflow: none !important; }
+  overflow: none; }
   section h2 {
     text-align: center; }
 
@@ -162,9 +162,6 @@ section {
     color: #09B8AC;
     margin-top: -1.5em;
     margin-bottom: 0; }
-  .about .image-box {
-    margin: 0 auto;
-    text-align: center; }
   .about img {
     margin-top: 2em;
     width: 7em;
@@ -191,6 +188,8 @@ section {
       font-weight: 300;
       text-align: center;
       padding-bottom: 1em; }
+    .projects .project-box h3:nth-of-type(2) {
+      padding-bottom: 0em; }
     .projects .project-box a:nth-of-type(1) {
       margin-right: 20px; }
     .projects .project-box a:nth-of-type(2) {

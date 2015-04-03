@@ -14,6 +14,8 @@
 			font-weight: 300;
 			text-align: center;
 			padding-bottom: 1em;}
+		h3:nth-of-type(2){
+			padding-bottom: 0em;}
 		a:nth-of-type(1){
 			margin-right: 20px;}
 		a:nth-of-type(2){
@@ -22,15 +24,13 @@
 			font-weight: 400;}
 	}
 	.project-box:nth-of-type(1){
-		margin-top: 3em;
-	}
+		margin-top: 3em;}
 
 	.line{
 		border-bottom: 1px solid $secondary;
 		max-width: 250px;
 		padding-top: 1em;
-		margin: 0 auto;
-	}
+		margin: 0 auto;}
 	.project-nav{
 		text-align: center;
 		margin-top: 300px;
@@ -38,8 +38,7 @@
 			color: $secondary;
 			font-size: 1.5em;}
 		.ion-ios-circle-outline:nth-of-type(2){
-			margin: 0 .5em;
-		}
+			margin: 0 .5em;}
 	}
 	img{
 		width: 200px;}
@@ -47,7 +46,6 @@
 
 @media screen and (min-width: 40em){
 	.projects{
-		// padding-bottom: 30em;
 		.project-box{
 			.project-pics{
 				height: 250px;}

@@ -79,14 +79,13 @@ html, body{
 section{
 	height: 100%;
 	position: relative;
-	overflow: none !important;
+	overflow: none;
 	h2{
 		text-align: center;}
 }
 
 .clear-fix{
-	clear: both;
-}
+	clear: both;}
 
 .arrows-box{
 	text-align: center;}
