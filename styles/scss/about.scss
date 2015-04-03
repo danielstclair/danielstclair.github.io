@@ -1,11 +1,20 @@
 .about{
 	position: relative;
 	margin: 0 1em 0;
-	// padding-top: 10em;
 	h2{
 		color: $primary;
 		margin-top: -1.5em;
 		margin-bottom: 0;}
+	.image-box{
+		margin: 0 auto;
+		text-align: center;
+	}
+	img{
+		margin-top: 2em;
+		
+		width: 7em;
+		border-radius: 50%;
+	}
 	p{
 		margin-top: 1.5em;}
 }

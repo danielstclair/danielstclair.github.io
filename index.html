@@ -29,7 +29,10 @@
 
 		<section id="about" class="about">
 			<h2>about</h2>
-			<p>I'm a front-end web developer who is just as enthusiastic about DOM manipulation as I am about action movies and vinyl.<br><br>I recently graduated from The Iron Yard Academy with a focus on AngularJS, Node.js, jQuery, vanilla JavaScript, as well as CSS3 and HTML5. We also worked with Yeoman, Bower, Git, and the art of mind-blowing.</p>
+			<div class="image-box">
+				<img src="img/daniel.jpg">
+			</div>
+			<p>I'm a front-end web developer located in Austin, TX who is just as enthusiastic about DOM manipulation as I am about action movies and vinyl.<br><br>I recently graduated from The Iron Yard Academy with a focus on AngularJS, Node.js, jQuery, vanilla JavaScript, as well as CSS3 and HTML5. We also worked with Yeoman, Bower, Git, and the art of mind-blowing.</p>
 			<div class="arrows-box"><a href="#projects" class="ion-ios-arrow-down arrows"></a></div>
 		</section>
 		<section id="projects" class="projects">
@@ -37,21 +40,20 @@
 			<div class="slideshow">
 				<div class="project-box" id="project1">
 					<h3>Vinyfi</h3>
-					<img class="project-pics" src="img/vinyfi-pic.png">
-					<p>A webapp for vinyl collectors to be able to keep track of their collection. Built with AngularJS, jQuery, and SailsJS using the Spotify API.</p>
+					<p>A webapp for vinyl collectors to be able to keep track of their collection.<br><strong>Stack:</strong> AngularJS, jQuery, Sass, and SailsJS using the Spotify API.</p>
 					<a href="https://vinyfi.herokuapp.com/#/" target="_blank">Visit full site</a>
 					<a href="https://github.com/danielstclair/vinyfi" target="_blank">Visit Github</a>
 				</div>
 				<div class="project-box" id="project2">
-					<h3>Snake</h3>
-					<img src="img/snake-pic.png" class="project-pics">
-					<p>A recreation of the classic video game using backbone routers and pure JS for the game functionality.</p>
-					<a href="#">Visit full site</a>
+					<h3>Iron Kitchen</h3>
+					<div class="project-pics"></div>
+					<p>My first experience working a a cross-functional team. A webapp for sharing recipes amongst Iron Yard students. I was primarily a designer in this but helped with front end tasks. (currently in version 0.0.1).<br><strong>Stack:</strong> Rails, Angular, Sass</p>
+					<a href="#">Visit full site</a><br>
 					<a href="https://github.com/danielstclair/day-21" target="_blank">Visit Github</a>
 				</div>
 				<div class="project-box" id="project3">
 					<h3>JS Color Clock</h3>
-					<img class="project-pics" src="img/js-clock.png">
+					<div class="project-pics"></div>
 					<p>One of our first projects, a simple clock that changes it's background color gradually every second. The was built with pure js and was an exercise in set timeout.</p>
 					<a href="#">Visit full site</a>
 					<a href="https://github.com/danielstclair/day-11">Visit Github</a>
@@ -69,20 +71,22 @@
 		<section class="contact" id="contact">
 			<h2>contact</h2>
 			<h3>Let's work together.</h3>
-			<p>I'm currently looking to hone my skills with the right company.<br> Contact me below or view my <a>résumé.</a></p>
-			<div>
+			<div class="contact-text">
+				<p>I'm currently looking to hone my skills with the right company.<br>Contact me below or view my <a href="https://drive.google.com/file/d/0B2EAWUQzrY0rdUpCR3owVDFZOENUM1JVZHFTVG4ydExhRzJN/view?usp=sharing" target="_blank">résumé.</a></p>
+			</div>
+			<div class="contact-box">
 				<a href="tel:512-954-0033"><span class="ion-ios-telephone"></span></a>
-				<a class="contact-description" href="tel:512-954-0033">512-954-0033</a>
+				<a class="contact-description telephone" href="tel:512-954-0033">512-954-0033</a>
 			</div>
-			<div>
+			<div class="contact-box">
 				<a href="mailto:danielallanstclair@gmail.com?Subject=Hello,%20I%20found%20your%20portfolio"><span class="ion-email"></span></a>
-				<a class="contact-description" href="mailto:danielallanstclair@gmail.com?Subject=Hello,%20I%20found%20your%20portfolio">Email me</a>
+				<a class="contact-description" href="mailto:danielallanstclair@gmail.com?Subject=Hello,%20I%20found%20your%20portfolio">danielallanstclair@gmail.com</a>
 			</div>
-			<div>
+			<div class="contact-box">
 				<a href="http://twitter.com/intent/tweet?screen_name=StClairSound" target="_blank"><span class="ion-social-twitter"></span></a>
-				<a class="contact-description" href="http://twitter.com/intent/tweet?screen_name=StClairSound" target="_blank">Send me a Tweet</a>
+				<a class="contact-description" href="http://twitter.com/intent/tweet?screen_name=StClairSound" target="_blank">@StClairSound</a>
 			</div>
-			<div>
+			<div class="contact-box">
 				<a href="https://github.com/danielstclair" target="_blank"><span class="ion-social-github"></span></a>
 				<a class="contact-description" href="https://github.com/danielstclair" target="_blank">Check out my Github</a>
 			</div>

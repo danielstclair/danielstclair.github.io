@@ -79,7 +79,7 @@ section {
   height: 100%;
   overflow: none; }
   section h2 {
-    margin-top: -2em; }
+    text-align: center; }
 
 .arrows-box {
   text-align: center; }
@@ -148,6 +148,11 @@ section {
   .home .ion-ios-arrow-down:hover, .home .ion-ios-arrow-down:active {
     color: #09B8AC; }
 
+@media screen and (min-width: 64em) {
+  .home {
+    background-image: url("../../img/austin-bw.jpg");
+    background-size: cover;
+    background-attachment: fixed; } }
 .about {
   position: relative;
   margin: 0 1em 0; }
@@ -155,6 +160,13 @@ section {
     color: #09B8AC;
     margin-top: -1.5em;
     margin-bottom: 0; }
+  .about .image-box {
+    margin: 0 auto;
+    text-align: center; }
+  .about img {
+    margin-top: 2em;
+    width: 7em;
+    border-radius: 50%; }
   .about p {
     margin-top: 1.5em; }
 
@@ -171,19 +183,22 @@ section {
     position: relative; }
     .projects .slideshow #project1, .projects .slideshow #project2, .projects .slideshow #project3 {
       position: absolute; }
-  .projects .project-box h3 {
-    font-weight: 300; }
-  .projects .project-box .project-pics {
-    width: 100%;
-    height: 150px;
-    border-radius: 3px; }
-  .projects .project-box a:nth-of-type(1) {
-    float: left; }
-  .projects .project-box a:nth-of-type(2) {
-    float: right; }
+  .projects .project-box {
+    width: 100%; }
+    .projects .project-box h3 {
+      font-weight: 300;
+      text-align: center; }
+    .projects .project-box p {
+      max-width: 46.75em; }
+    .projects .project-box a:nth-of-type(1) {
+      float: left; }
+    .projects .project-box a:nth-of-type(2) {
+      float: right; }
+    .projects .project-box a {
+      font-weight: 400; }
   .projects .project-nav {
     text-align: center;
-    margin-top: 450px; }
+    margin-top: 350px; }
     .projects .project-nav .ion-ios-circle-outline {
       color: #0F0F0F;
       font-size: 1.5em; }
@@ -192,25 +207,25 @@ section {
 
 @media screen and (min-width: 40em) {
   .projects .project-box .project-pics {
-    height: 250px; }
-  .projects .project-nav {
-    margin-top: 500px; } }
+    height: 250px; } }
 .contact {
   margin-top: 3.2em; }
+  .contact h2 {
+    text-align: center; }
   .contact h3 {
-    margin-top: 4em;
+    margin-top: 1.5em;
     color: #0F0F0F;
     text-align: center;
     font-weight: 300; }
   .contact p {
     font-weight: 300; }
-  .contact div {
+  .contact .contact-box {
     margin-top: 2em;
     float: left;
     width: 25%;
     text-align: center; }
-  .contact div:nth-of-type(1) {
-    margin-left: 0; }
+  .contact .contact-text a {
+    color: #09B8AC; }
   .contact span {
     top: 1em;
     vertical-align: center;
@@ -219,7 +234,13 @@ section {
     display: none; }
 
 @media screen and (min-width: 40em) {
-  .contact h2 {
-    text-align: left; } }
+  .contact {
+    text-align: center; }
+    .contact .contact-box {
+      width: 50%; }
+    .contact .contact-description {
+      display: block; }
+    .contact .ion-ios-telephone:hover .telephone {
+      display: block; } }
 
 /*# sourceMappingURL=main.css.map */

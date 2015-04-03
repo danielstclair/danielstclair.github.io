@@ -49,3 +49,11 @@
 	.ion-ios-arrow-down:hover, .ion-ios-arrow-down:active{
 		color: $primary;}
 }
+
+@media screen and (min-width: 64em){
+	.home{
+		background-image: url('../../img/austin-bw.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
