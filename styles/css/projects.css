@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$secondary".
-        on line 35 of scss/projects.scss
+        on line 36 of scss/projects.scss
 
-30: 	}
-31: 	.project-nav{
-32: 		text-align: center;
-33: 		margin-top: 350px;
-34: 		.ion-ios-circle-outline{
-35: 			color: $secondary;
-36: 			font-size: 1.5em;}
-37: 		.ion-ios-circle-outline:nth-of-type(2){
-38: 			margin: 0 .5em;
-39: 		}
-40: 	}
+31: 	}
+32: 	.project-nav{
+33: 		text-align: center;
+34: 		margin-top: 350px;
+35: 		.ion-ios-circle-outline{
+36: 			color: $secondary;
+37: 			font-size: 1.5em;}
+38: 		.ion-ios-circle-outline:nth-of-type(2){
+39: 			margin: 0 .5em;
+40: 		}
+41: 	}
 
 Backtrace:
-scss/projects.scss:35
+scss/projects.scss:36
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -89,4 +89,4 @@ scss/projects.scss:35
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary\".\A         on line 35 of scss/projects.scss\A \A 30: 	}\A 31: 	.project-nav{\A 32: 		text-align: center;\A 33: 		margin-top: 350px;\A 34: 		.ion-ios-circle-outline{\A 35: 			color: $secondary;\A 36: 			font-size: 1.5em;}\A 37: 		.ion-ios-circle-outline:nth-of-type(2){\A 38: 			margin: 0 .5em;\A 39: 		}\A 40: 	}"; }
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 36 of scss/projects.scss\A \A 31: 	}\A 32: 	.project-nav{\A 33: 		text-align: center;\A 34: 		margin-top: 350px;\A 35: 		.ion-ios-circle-outline{\A 36: 			color: $secondary;\A 37: 			font-size: 1.5em;}\A 38: 		.ion-ios-circle-outline:nth-of-type(2){\A 39: 			margin: 0 .5em;\A 40: 		}\A 41: 	}"; }
