@@ -73,12 +73,13 @@ html, body{
 .main{
 	height: 100%;
 	width: 90%;
+	position: relative;
 	max-width: 46.75em;
 	margin: 0 auto;}
 
 section{
 	height: 100%;
-	position: relative;
+	// position: relative;
 	overflow: none;
 	h2{
 		text-align: center;}
@@ -96,6 +97,16 @@ section{
 
 .arrows:hover, .arrows:active{
 	color:$primary;}
+
+.transition{
+	background-size: cover;
+	background-attachment: fixed;
+	height: 200px;
+}
+
+#transition1{
+	background-image: url('../../img/microphone.jpg');
+}
 
 
 @import 'home.scss';

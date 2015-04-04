@@ -69,12 +69,12 @@ html, body {
 .main {
   height: 100%;
   width: 90%;
+  position: relative;
   max-width: 46.75em;
   margin: 0 auto; }
 
 section {
   height: 100%;
-  position: relative;
   overflow: none; }
   section h2 {
     text-align: center; }
@@ -91,6 +91,14 @@ section {
 
 .arrows:hover, .arrows:active {
   color: #09B8AC; }
+
+.transition {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px; }
+
+#transition1 {
+  background-image: url("../../img/microphone.jpg"); }
 
 .home {
   background-color: #0F0F0F;
@@ -155,7 +163,6 @@ section {
     background-size: cover;
     background-attachment: fixed; } }
 .about {
-  position: relative;
   padding-top: 3em;
   margin: .3em 1em 7em; }
   .about h2 {

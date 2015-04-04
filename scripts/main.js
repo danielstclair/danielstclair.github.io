@@ -1,10 +1,5 @@
 $( document ).ready(function() {
-	console.log('Check out the site repo here https://github.com/danielstclair/danielstclair.github.io')
-	// $('#home').show();
-	// $('#main').hide();
-	// $('.to-main').click(function(){
-	// 	$('#main').show();
-	// })
+	console.log('Check out the site repo here https://github.com/danielstclair/danielstclair.github.io');
 	$(function(){
 		$('.typed').typed({
 			strings: ['design enthusiast.', 'musician.', 'front-end developer.'],
