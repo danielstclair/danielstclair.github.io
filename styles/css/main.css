@@ -70,14 +70,15 @@ html, body {
   height: 100%;
   width: 90%;
   position: relative;
+  padding-bottom: 3em;
   max-width: 46.75em;
   margin: 0 auto; }
 
 section {
-  height: 100%;
   overflow: none; }
   section h2 {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: .5em; }
 
 .clear-fix {
   clear: both; }
@@ -105,7 +106,8 @@ section {
   color: white;
   margin-top: -15px;
   text-align: center;
-  position: relative; }
+  position: relative;
+  height: 100%; }
   .home h1 {
     padding-top: 50px;
     font-size: 1.4em; }
@@ -164,7 +166,9 @@ section {
     background-attachment: fixed; } }
 .about {
   padding-top: 3em;
-  margin: .3em 1em 7em; }
+  padding-bottom: 3em;
+  margin: .3em 1em 4em;
+  height: 100%; }
   .about h2 {
     color: #09B8AC;
     margin-top: -1.5em;
@@ -184,7 +188,8 @@ section {
   margin-top: 2.7em; }
 
 .projects {
-  padding: 2.2em 0 65em; }
+  border-top: 1px solid #0F0F0F;
+  border-bottom: 1px solid #0F0F0F; }
   .projects #bottom-arrow {
     margin-left: auto;
     margin-right: auto;
@@ -195,22 +200,18 @@ section {
     text-align: center;
     margin-bottom: 4em;
     width: 100%; }
-    .projects .project-box h3 {
-      font-weight: 300;
-      text-align: center;
-      padding-bottom: 1em; }
-    .projects .project-box h3:nth-of-type(2) {
-      padding-bottom: 0em; }
-    .projects .project-box a:nth-of-type(1) {
+    .projects .project-box .full-site {
       margin-right: 20px; }
-    .projects .project-box a:nth-of-type(2) {
+    .projects .project-box .github {
       margin-left: 20px; }
     .projects .project-box a {
       font-weight: 400; }
   .projects .project-box:nth-of-type(1) {
-    margin-top: 3em; }
+    margin-top: 4em; }
+  .projects .last-project {
+    padding-top: .5em; }
   .projects .line {
-    border-bottom: 1px solid #0F0F0F;
+    border-bottom: 1px solid white;
     max-width: 250px;
     padding-top: 1em;
     margin: 0 auto; }
@@ -225,11 +226,9 @@ section {
   .projects img {
     width: 200px; }
 
-@media screen and (min-width: 40em) {
-  .projects .project-box .project-pics {
-    height: 250px; } }
 .contact {
-  margin-top: 3.2em; }
+  margin-top: 3.2em;
+  height: 100%; }
   .contact h2 {
     text-align: center; }
   .contact h3 {

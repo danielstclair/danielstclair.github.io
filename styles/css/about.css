@@ -1,20 +1,21 @@
 /*
 Error: Undefined variable: "$primary".
-        on line 5 of scss/about.scss
+        on line 7 of scss/about.scss
 
-1: .about{
 2: 	padding-top: 3em;
-3: 	margin: .3em 1em 7em;
-4: 	h2{
-5: 		color: $primary;
-6: 		margin-top: -1.5em;
-7: 		margin-bottom: 0;}
-8: 	.image-box{
-9: 		margin: 0 auto;
-10: 		text-align: center;}
+3: 	padding-bottom: 3em;
+4: 	margin: .3em 1em 4em;
+5: 	height: 100%;
+6: 	h2{
+7: 		color: $primary;
+8: 		margin-top: -1.5em;
+9: 		margin-bottom: 0;}
+10: 	.image-box{
+11: 		margin: 0 auto;
+12: 		text-align: center;}
 
 Backtrace:
-scss/about.scss:5
+scss/about.scss:7
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/D/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -77,4 +78,4 @@ scss/about.scss:5
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary\".\A         on line 5 of scss/about.scss\A \A 1: .about{\A 2: 	padding-top: 3em;\A 3: 	margin: .3em 1em 7em;\A 4: 	h2{\A 5: 		color: $primary;\A 6: 		margin-top: -1.5em;\A 7: 		margin-bottom: 0;}\A 8: 	.image-box{\A 9: 		margin: 0 auto;\A 10: 		text-align: center;}"; }
+  content: "Error: Undefined variable: \"$primary\".\A         on line 7 of scss/about.scss\A \A 2: 	padding-top: 3em;\A 3: 	padding-bottom: 3em;\A 4: 	margin: .3em 1em 4em;\A 5: 	height: 100%;\A 6: 	h2{\A 7: 		color: $primary;\A 8: 		margin-top: -1.5em;\A 9: 		margin-bottom: 0;}\A 10: 	.image-box{\A 11: 		margin: 0 auto;\A 12: 		text-align: center;}"; }
