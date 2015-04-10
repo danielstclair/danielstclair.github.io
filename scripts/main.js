@@ -94,10 +94,10 @@ $( document ).ready(function() {
 			return;
 		}
 		if (st > lastScrollTop && st > navbarHeight){
-			$('.fixed').hide();
+			$('.ion-navicon').hide();
 		} else {
 			if(st + $(window).height() < $(document).height()) {
-				$('.fixed').show();
+				$('.ion-navicon').show();
 			}
 		}
 		lastScrollTop = st;
