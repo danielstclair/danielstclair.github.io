@@ -16,7 +16,7 @@ h3{
 a, p{
 	font-family: "proxima-nova",sans-serif;
 	font-weight: 300;
-	font-size: .9em;
+	// font-size: .9em;
 	text-decoration: none;}
 
 .main{
@@ -34,6 +34,8 @@ a, p{
 		ul{
 		padding: 0;
 		list-style: none;}
+		li{
+			line-height: 2em;}
 		a{
 			color: #fff;}
 		a:active{
