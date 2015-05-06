@@ -1,0 +1,25 @@
+{
+  "name": "danielstclair.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/danielstclair/danielstclair.github.io",
+  "authors": [
+    "danielstclair <danielallanstclair@gmail.com>"
+  ],
+  "description": "My portfolio site",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "typed.js": "*",
+    "normalize.css": "~3.0.2",
+    "ionicons": "~2.0.1",
+    "jquery-ui": "~1.11.4"
+  }
+}
