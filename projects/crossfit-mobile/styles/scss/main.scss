@@ -2,11 +2,15 @@ body{
 	background-color: #000;
 	color: #fff;}
 h1{
-	font-family: "changeling-neo",sans-serif;}
+	font-family: "changeling-neo",sans-serif;
+	font-size: 3em;}
 
 h3{
 	font-family: "fira-sans-2",sans-serif;
-	margin: 1em 0 1em;}
+	margin: 1em 0 1em;
+	font-size: 1.5em;
+}
+
 
 .highlight{
 	padding: 0 2em;
@@ -16,7 +20,7 @@ h3{
 a, p{
 	font-family: "proxima-nova",sans-serif;
 	font-weight: 300;
-	// font-size: .9em;
+	font-size: 1.2em;
 	text-decoration: none;}
 
 .main{
@@ -35,7 +39,7 @@ a, p{
 		padding: 0;
 		list-style: none;}
 		li{
-			line-height: 2em;}
+			line-height: 2.5em;}
 		a{
 			color: #fff;}
 		a:active{
