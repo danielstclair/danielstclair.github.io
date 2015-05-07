@@ -47,9 +47,6 @@ a, p {
 .overflow {
   overflow-y: visible; }
 
-.active {
-  color: #16CC23; }
-
 .about, .back {
   display: none; }
 
@@ -60,9 +57,13 @@ a, p {
   padding: 1em;
   margin: 0 1em 1em;
   text-align: left; }
-  .about h3 {
-    margin: 0 0 1em; }
   .about h3, .about a {
     color: #FF4D4D; }
+  .about h3 {
+    margin: 0 0 1em; }
+  .about a {
+    font-size: 1em; }
+  .about a:hover, .about a:active {
+    color: #3883FC; }
 
 /*# sourceMappingURL=main.css.map */
