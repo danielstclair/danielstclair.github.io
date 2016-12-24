@@ -1,99 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>daniel st. clair</title>
-	<link rel="stylesheet" type="text/css" href="bower_components/normalize.css/normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400|Lora:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="bower_components/ionicons/css/ionicons.min.css">
-	<link rel="stylesheet" type="text/css" href="styles/css/main.css">
-</head>
-<body>
-	<section id="home" class="home">
-		<h1>Hi, I'm Daniel St. Clair</h1>
-		<h2>I'm a <span class="typed"></span></h2>
-		<div class="arrows-box"><a href="#about" class="ion-ios-arrow-down arrows to-main"></a></div>
-	</section>
-	<section id="main" class="main">
-		<nav class="nav">
-			<a class="ion-navicon ions" id="menu"></a>
-			<ul class="nav-items hide-nav" id="nav-items">
-				<li><a href="#home">home</a></li>
-				<li><a href="#about">about</a></li>
-				<li><a href="#projects">projects</a></li>
-				<li><a href="#contact">contact</a></li>
-			</ul>
-		</nav>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel St. Clair</title>
+    <link rel="stylesheet" href="/node_modules/source-code-pro/source-code-pro.css" />
+    <link rel="stylesheet" href="/public/styles/main.css" media="screen" title="no title">
+  </head>
+  <body id="page">
+    <main class="container">
+      <header id="header">
+        <h1>Hi, I'm Daniel</h1>
+      </header>
+      <nav class="off-canvas-navigation">
+  			<ul>
+  				<li class="menu-item"><a class='menu-button' href="#menu">Menu</a></li>
+  			</ul>
+  		</nav>
+      <div class="clearfix"></div>
+  		<nav id="menu" role="navigation">
+  			<ul id="nav">
+  				<li class="current"><a href="/lab/offcanvas">Home</a></li>
+  				<li><a href="/lab/offcanvas/technical/">Contact</a></li>
+  				<li><a href="/lab/offcanvas/variations/">Resources</a></li>
+  			</ul>
+  		</nav>
+      <section role="main">
+        <p>
+          I'm a full stack Javascript developer currently working at IBM Design. This is my super bare bones portfolio site. In part I designed it this way to minimize upkeep and in part I found quaint.
+          <br />
+          <br />
+          Enjoy :)
+        </p>
+      </section>
+    </main>
 
-		<section id="about" class="about">
-			<h2 class="fadeInUp">about</h2>
-			<div class="image-box">
-				<img src="img/daniel.jpg">
-			</div>
-			<p class="fadeInUp">I'm a front-end web developer located in Austin, TX who is just as enthusiastic about DOM manipulation as I am about action movies and vinyl.<br><br>I recently graduated from The Iron Yard Academy with a focus on AngularJS, Backbone, jQuery, vanilla JavaScript, as well as SASS, CSS3 and HTML5. We also worked with Yeoman, Bower, Git, and the art of mind-blowing.</p>
-			<div class="arrows-box"><a href="#projects" class="ion-ios-arrow-down arrows"></a></div>
-		</section>
-		<section id="projects" class="projects">
-			<h2>projects</h2>
-			<div class="slideshow">
-				<div class="project-box">
-					<a href="https://vinyfi.herokuapp.com/#/" target="_blank"><img src="img/V6.png"></a>
-					<p>A webapp for vinyl collectors to be able to keep track of their collection.<br><strong>Stack:</strong> AngularJS, jQuery, Sass, and SailsJS using the Spotify API.</p>
-					<a href="https://vinyfi.herokuapp.com/#/" target="_blank" class="full-site">Visit full site</a>
-					<a href="https://github.com/danielstclair/vinyfi" target="_blank" class="github">Visit Github</a>
-					<div class="line"></div>
-				</div>
-				<div class="clear-fix"></div>
-				<div class="project-box">
-					<a href="http://ironkitchen.herokuapp.com/#/" target="_blank"><img src="img/Iron-Logo.png"></a>
-					<p>My first experience working a a cross-functional team. A webapp for sharing recipes amongst Iron Yard students. I was primarily a designer in this but helped with front end tasks. (currently in version 0.0.1).<br><strong>Stack:</strong> Rails, Angular, Sass</p>
-					<a href="http://ironkitchen.herokuapp.com/#/" target="_blank" class="full-site">Visit full site</a>
-					<a href="https://github.com/buckspencer/iron_kitchen" target="_blank" class="github">Visit Github</a>
-					<div class="line"></div>
-				</div>
-				<div class="clear-fix"></div>
-				<div class="project-box last-project">
-					<a href="projects/rebuild-1/index.html" target="_blank"><img src="img/remake-site-compressed.jpg"></a>
-					<p>One of our first projects, a rebuild using a site as a static mockup.<br><strong>Stack:</strong> CSS3 and HTML5</p>
-					<a href="projects/rebuild-1/index.html" target="_blank" class="full-site">Visit full site</a>
-					<a href="https://github.com/danielstclair/day5asssignent" target="_blank" class="github">Visit Github</a>
-					<div class="line"></div>
-				</div>
-				<div class="clear-fix"></div>
-			</div>
-			<div class="arrows-box" id="bottom-arrow">
-				<a href="#contact" class="ion-ios-arrow-down arrows"></a>
-			</div>
-		</section>
-		<section class="contact" id="contact">
-			<h2>contact</h2>
-			<h3>Let's work together.</h3>
-			<div class="contact-text">
-				<p>I'm currently looking to hone my skills with the right company.<br>Contact me below or view my <a href="https://drive.google.com/file/d/0B2EAWUQzrY0rUXVXSUc2Q1lQc291TUJfU0NGVUxoV3Q3UFNN/view?usp=sharing" target="_blank">résumé.</a></p>
-			</div>
-			<div class="clear-fix"></div>
-			<div class="contact-box">
-				<a href="tel:512-954-0033"><span class="ion-ios-telephone"></span></a>
-				<a class="contact-description telephone" href="tel:512-954-0033">512-954-0033</a>
-			</div>
-			<div class="contact-box">
-				<a href="mailto:danielallanstclair@gmail.com?Subject=Hello,%20I%20found%20your%20portfolio"><span class="ion-email"></span></a>
-				<a class="contact-description" href="mailto:danielallanstclair@gmail.com?Subject=Hello,%20I%20found%20your%20portfolio">danielallanstclair@gmail.com</a>
-			</div>
-			<div class="contact-box">
-				<a href="http://twitter.com/intent/tweet?screen_name=StClairSound" target="_blank"><span class="ion-social-twitter"></span></a>
-				<a class="contact-description" href="http://twitter.com/intent/tweet?screen_name=StClairSound" target="_blank">@StClairSound</a>
-			</div>
-			<div class="contact-box">
-				<a href="https://github.com/danielstclair" target="_blank"><span class="ion-social-github"></span></a>
-				<a class="contact-description" href="https://github.com/danielstclair" target="_blank">Check out my Github</a>
-			</div>
-		</section>
-	</section>
-
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="bower_components/typed.js/dist/typed.min.js"></script>
-	<script type="text/javascript" src="scripts/main.js"></script>
-</body>
+    <script type="text/javascript" src="/public/built/bundle.js"></script>
+  </body>
 </html>

@@ -1,0 +1,32 @@
+{
+  "name": "danielstclair.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "concurrently": "^3.1.0",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.3",
+    "webpack-merge": "^0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "clean": "rimraf public/scripts/built",
+    "build": "npm run clean && webpack --config webpack/minimize.config.js",
+    "js": "webpack -w --config webpack/base.config.js --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielstclair/danielstclair.github.io.git"
+  },
+  "author": "Daniel St. Clair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielstclair/danielstclair.github.io/issues"
+  },
+  "homepage": "https://github.com/danielstclair/danielstclair.github.io#readme"
+}
